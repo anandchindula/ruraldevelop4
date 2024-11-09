@@ -1,0 +1,206 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .logo-img {
+    width: 25px; /* Adjust the size as per your logo dimensions */
+    height: 25px;}
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://media.gettyimages.com/id/1358342424/photo/sunset-in-the-rural-area-of-the-state-of-s%C3%A3o-paulo.jpg?s=1024x1024&w=gi&k=20&c=4czohS_ms900cVRzm9cK1K1xKtTQN2AerpygpLYqRHs=') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 20px;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin: 20px 0;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .hero .btn {
+    background: #E74C3C;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #539eb0;
+  }
+  
+  .services h2 {
+    margin-bottom: 20px;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+  /* About Section */
+  .about-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.1fOR5tz8UW7zGLbwUJVNewHaEK&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.about-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.about-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ECF0F1;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    background: #3498DB;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2C3E50;
+    color: #fff;
+    font-size: 14px;
+  }
+  
